@@ -6,7 +6,7 @@ import Logo from '../images/da-logo.svg'
 
 const Header = ({ siteTitle }) => (
 	<header className={style.header}>
-		<div className={style.grid}>
+		<div className={style.container}>
 			<Link to="/" className={style.logoContainer}>
 				<img className={style.logo} src={Logo} />
 			</Link>
@@ -21,6 +21,10 @@ const Header = ({ siteTitle }) => (
 				</Link>
 				<Link to="/page-3" activeClassName={style.activeNavItem}>
 					Academy
+				</Link>
+
+				<Link to="/404" activeClassName={style.activeNavItem}>
+					Contact
 				</Link>
 			</nav>
 		</div>
