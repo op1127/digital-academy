@@ -1,0 +1,80 @@
+// Variables /////////////////////////////////////////////////////////////////////
+$white: #fff;
+$color-grey: rgb(50, 55, 65);
+$color-primary: #3898EC;
+$color-secondary: #EC8C38;
+
+
+
+// Fonts /////////////////////////////////////////////////////////////////////////
+@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+
+
+// Mixins ////////////////////////////////////////////////////////////////////////
+/*
+Media Query Manager 
+0 = 600px: Phone
+600 - 900px: Tablet Portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + : Big Desktop
+*/
+
+// $ phone - tab-port - tab-land - big-desktop
+
+@mixin respond($breakpoint) {
+    @if $breakpoint==phone {
+        @media only screen and (max-width: 37.5em) {
+            @content
+        }
+
+        ; //600px
+    }
+
+    @if $breakpoint==tab-port {
+        @media only screen and (max-width: 56.25em) {
+            @content
+        }
+
+        ; //900px
+    }
+
+    @if $breakpoint==tab-land {
+        @media only screen and (max-width: 75em) {
+            @content
+        }
+
+        ; //1200px
+    }
+
+    @if $breakpoint==big-desktop {
+        @media only screen and (min-width: 112.5em) {
+            @content
+        }
+
+        ; //1800px
+    }
+}
+
+// 1170 grid recreated in CSS Grid. No Bootstrap? No problem!!!
+@mixin grid ($rows: auto) {
+    width: 73.125%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: $rows;
+    column-gap: 2.55%;
+
+    @include respond(tab-land) { 
+        width: 83.125%;
+    }
+
+    @include respond(tab-port) { 
+        width: 93.125%;
+    }
+
+    @include respond(phone) { 
+        width: 100%;
+    }
+}
+

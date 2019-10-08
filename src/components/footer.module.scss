@@ -1,0 +1,13 @@
+@import "../styles/abstracts.scss";
+
+
+.footer {
+    background-color: gray;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
