@@ -1,16 +1,15 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import btn from './button.module.scss'
 
 const Button = ({ type, children }) => {
 	let style
 
 	switch (type) {
 		case 'secondary':
-			style = btn.secondary
+			style = 'btn__secondary'
 			break
 		default:
-			style = btn.primary
+			style = 'btn__primary'
 	}
 
 	return (

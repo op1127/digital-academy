@@ -1,0 +1,54 @@
+.header {
+    height: 10rem;
+
+    &__container {
+        @include grid;
+        height: 100%;
+    }
+
+    &__heading {
+        display: none;
+    }
+
+    &__nav {
+        grid-column:  9 / 13;
+        height: 10rem;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        & > * {
+            font-family: Roboto, sans-serif;
+            color: $color-grey;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    
+        @include respond(tab-port) {
+            grid-column: 6 / 13;
+        }
+    }
+    
+}
+
+
+
+.logo-container {
+    grid-column: 1 / 5;
+    align-self: center;
+
+    display: flex;
+    align-items: center;
+
+    .logo {
+        width: 28rem;
+    }
+}
+
+
+.active-nav-item {
+    color: $color-primary;
+}

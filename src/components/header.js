@@ -1,29 +1,28 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import style from './header.module.scss'
 import Logo from '../images/da-logo.svg'
 
 const Header = ({ siteTitle }) => (
-	<header className={style.header}>
-		<div className={style.container}>
-			<Link to="/" className={style.logoContainer}>
-				<img className={style.logo} src={Logo} />
+	<header className='header'>
+		<div className='header__container'>
+			<Link to="/" className='logo-container'>
+				<img className='logo' src={Logo} />
 			</Link>
 
-			<h1 className={style.heading}>{siteTitle}</h1>
-			<nav className={style.nav}>
-				<Link to="/" activeClassName={style.activeNavItem}>
+			<h1 className='header__heading'>{siteTitle}</h1>
+			<nav className='header__nav'>
+				<Link to="/" activeClassName='active-nav-item'>
 					Home
 				</Link>
-				<Link to="/page-2" activeClassName={style.activeNavItem}>
+				<Link to="/page-2" activeClassName='active-nav-item'>
 					Enterprise
 				</Link>
-				<Link to="/page-3" activeClassName={style.activeNavItem}>
+				<Link to="/page-3" activeClassName='active-nav-item'>
 					Academy
 				</Link>
 
-				<Link to="/404" activeClassName={style.activeNavItem}>
+				<Link to="/404" activeClassName='active-nav-item'>
 					Contact
 				</Link>
 			</nav>
