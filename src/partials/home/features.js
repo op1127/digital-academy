@@ -18,7 +18,7 @@ const Features = () => (
 					<p>
 						Sint id amet voluptate excepteur anim consequat cillum est. Occaecat
 						commodo velit anim enim ea labore. Quis aute labore incididunt ex
-						est dolor.
+						est dolor dolor.
 					</p>
 					<Link to="/page-2">Learn more</Link>
 				</div>
@@ -29,7 +29,7 @@ const Features = () => (
 					<p>
 						Sint id amet voluptate excepteur anim consequat cillum est. Occaecat
 						commodo velit anim enim ea labore. Quis aute labore incididunt ex
-						est dolor.
+						est dolor dolor.
 					</p>
 					<Link to="/page-2">Learn more</Link>
 				</div>
@@ -40,7 +40,7 @@ const Features = () => (
 					<p>
 						Sint id amet voluptate excepteur anim consequat cillum est. Occaecat
 						commodo velit anim enim ea labore. Quis aute labore incididunt ex
-						est dolor.
+						est dolor dolor.
 					</p>
 					<Link to="/page-3">Learn more</Link>
 				</div>

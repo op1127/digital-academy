@@ -33,7 +33,7 @@ body {
   font-family: Open-sans, sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #323741;
+  color: #323C47;
   font-size: 1.6rem; }
 
 .btn__primary {
@@ -99,7 +99,7 @@ body {
   justify-self: center;
   align-self: center;
   height: 40%;
-  border-right: 0.2rem solid #cdd1d8; }
+  border-right: 0.2rem solid #ced5dd; }
 
 .footer__content {
   height: 40rem;
@@ -179,7 +179,7 @@ body {
     .subscribe__form__input {
       width: 20rem;
       height: 4rem;
-      border: 0.2rem solid #eaebee;
+      border: 0.2rem solid #eceff2;
       border-radius: 0.4rem;
       color: #989898; }
       .subscribe__form__input:focus:placeholder-shown {
@@ -248,15 +248,13 @@ body {
   color: #3898EC; }
 
 .hero {
-  height: auto;
-  width: 100%;
   background-color: #3898EC; }
   .hero__container {
     width: 73.125%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 4;
+    grid-template-rows: auto;
     column-gap: 2.55%; }
     @media only screen and (max-width: 75em) {
       .hero__container {
@@ -356,7 +354,8 @@ body {
     margin: 1rem 0;
     font-family: Catamaran, sans-serif; }
   .features__item p {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    width: 30rem; }
   .features__item a {
     text-decoration: none; }
 
@@ -365,3 +364,63 @@ body {
   grid-row: 3 / 4;
   justify-self: center;
   margin-bottom: 7rem; }
+
+.highlight {
+  height: 50rem;
+  background-color: #FAFAFB;
+  position: relative; }
+  .highlight__container {
+    width: 73.125%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    column-gap: 2.55%; }
+    @media only screen and (max-width: 75em) {
+      .highlight__container {
+        width: 83.125%; } }
+    @media only screen and (max-width: 56.25em) {
+      .highlight__container {
+        width: 93.125%; } }
+    @media only screen and (max-width: 37.5em) {
+      .highlight__container {
+        width: 100%; } }
+  .highlight__one {
+    font-size: 4rem;
+    color: #3898EC; }
+  .highlight__group {
+    grid-column: 2 / 6;
+    margin: 10rem 0;
+    width: 40rem; }
+    @media only screen and (max-width: 75em) {
+      .highlight__group {
+        grid-column: 1 / 5; } }
+    .highlight__group h2 {
+      font-size: 3.2rem;
+      font-family: Catamaran, sans-serif;
+      color: #546578;
+      line-height: 4.8rem; }
+    .highlight__group p {
+      margin: 1.3rem 0 3rem 0; }
+  .highlight__img-container {
+    grid-column: 7 / 13;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+  .highlight__img {
+    width: 45rem;
+    position: relative;
+    z-index: 10; }
+  .highlight__bg {
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 5; }
+    @media only screen and (max-width: 90em) {
+      .highlight__bg {
+        right: -10rem; } }
+    @media only screen and (max-width: 81.25em) {
+      .highlight__bg {
+        right: -20rem; } }
