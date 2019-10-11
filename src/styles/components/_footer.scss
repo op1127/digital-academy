@@ -1,12 +1,12 @@
 .footer {
-	&__container {
+	&__nav__container {
 		@include grid;
 		height: 10rem;
 	}
 
 	&__nav {
 		grid-column: 1 / 5;
-		grid-row: 1 / 2;
+		height: 10rem;
 
 		display: flex;
 		align-items: center;
@@ -14,7 +14,8 @@
 
 		& > * {
 			font-family: Roboto, sans-serif;
-			color: $color-grey;
+			padding: 1rem;
+			color: $color-heading;
 			font-size: 1.2rem;
 			font-weight: 600;
 			text-transform: uppercase;
@@ -28,14 +29,86 @@
 
 	&__border {
 		grid-column: 6 / 8;
-		grid-row: 1 / 2;
 		justify-self: center;
 		align-self: center;
 
 		height: 40%;
-		border-right: 0.2rem solid lighten($color-grey, 60%);
+		border-right: 0.2rem solid lighten($color-gray, 60%);
+	}
+
+	&__content {
+		height: 40rem;
+		background-color: $color-light-gray;
+	
+		&__container {
+			@include grid;
+			height: 100%;
+		}
+
+	
+		&__flex-left {
+			grid-column: 2 / 7;
+			height: 40rem;
+
+
+			display: flex;
+			align-items: center;
+		} 
+
+		&__group {
+			width: 45rem;
+
+			img {
+				width: 28rem;
+				margin-bottom: 1rem;
+			}
+
+			p {
+				color: $color-medium-gray;
+			}
+		}
+
+		&__flex-right {
+			grid-column: 9 / 12;
+			height: 40rem;
+
+
+			display: flex;
+			align-items: center;
+		}
+
+		&__links {
+			font-size: 1.4rem;
+			font-family: Roboto, sans-serif;
+			width: 26rem;
+			align-self: center;
+
+			display: flex;
+			justify-content: space-between;
+
+			p {
+				color: $color-medium-gray;
+				line-height: 3rem;
+			}
+
+			h3 {
+				text-transform: uppercase;
+				font-size: 1.5rem;
+				color: $color-heading;
+
+				margin-bottom: 1.3rem;
+			}
+		}
+	}
+	
+	&__author{
+		background-color: darken($color-light-gray, 5%);
+		color: $color-heading;
+		text-align: center;
+		padding: 1rem 0;
 	}
 }
+
 
 .active-nav-item {
 	color: $color-primary;
@@ -43,7 +116,6 @@
 
 .subscribe {
 	grid-column: 8 / 13;
-	grid-row: 1 / 2;
 
 	display: flex;
 	align-items: center;
@@ -52,6 +124,7 @@
 	&__text {
 		font-size: 1.2rem;
 		width: 20rem;
+		color: $color-medium-gray;
 	}
 
 	&__form {
@@ -62,8 +135,9 @@
 		&__input {
 			width: 20rem;
 			height: 4rem;
-			border: 0.2rem solid lighten($color-grey, 70%);
+			border: 0.2rem solid lighten($color-gray, 70%);
 			border-radius: 0.4rem;
+			color: $color-medium-gray;
 
 			&:focus:placeholder-shown {
 				color: transparent;

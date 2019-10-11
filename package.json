@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "digital-academy",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "An online tech academy",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Omar Plasencia",
   "dependencies": {
     "gatsby": "^2.15.29",
     "gatsby-image": "^2.2.24",
@@ -20,7 +20,6 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10",
     "node-sass": "^4.12.0",
     "postcss": "^7.0.18",
     "postcss-cli": "^6.1.3",
