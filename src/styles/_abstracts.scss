@@ -1,17 +1,24 @@
 // Variables /////////////////////////////////////////////////////////////////////
+// Colors
 $white: #fff;
 $color-gray: rgb(50, 55, 65);
 $color-medium-gray: #989898;
 $color-light-gray: #FAFAFB;
 $color-heading: #546578;
+
 $color-primary: #3898EC;
 $color-secondary: #EC8C38;
 
+// Fonts
+$heading-font: Catamaran, sans-serif;
+$nav-font: Roboto, sans-serif;
+$main-font: Open-sans, sans-serif;
 
 
-// Fonts /////////////////////////////////////////////////////////////////////////
+// Font Imports /////////////////////////////////////////////////////////////////////////
 @import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 // Mixins ////////////////////////////////////////////////////////////////////////
 /*

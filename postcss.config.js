@@ -1,9 +1,9 @@
 module.exports = {
 	plugins: {
-		"postcss-preset-env": {
+		'postcss-preset-env': {
 			autoprefixer: {
-				grid: "no-autoplace"
-			}
-		}
-	}
-};
+				grid: 'no-autoplace',
+			},
+		},
+	},
+}

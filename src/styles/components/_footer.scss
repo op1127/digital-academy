@@ -13,7 +13,7 @@
 		justify-content: space-between;
 
 		& > * {
-			font-family: Roboto, sans-serif;
+			font-family: $nav-font;
 			padding: 1rem;
 			color: $color-heading;
 			font-size: 1.2rem;
@@ -22,9 +22,6 @@
 			text-decoration: none;
 		}
 
-		@include respond(tab-port) {
-			grid-column: 1 / 8;
-		}
 	}
 
 	&__border {
@@ -79,7 +76,7 @@
 
 		&__links {
 			font-size: 1.4rem;
-			font-family: Roboto, sans-serif;
+			font-family: $nav-font;
 			width: 26rem;
 			align-self: center;
 
