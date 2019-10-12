@@ -20,6 +20,7 @@ Media Query Manager
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  transition: all 0.5s;
 }
 @media only screen and (max-width: 75em) {
   html {
@@ -913,6 +914,16 @@ body {
   margin-bottom: 1rem;
   width: 30rem;
 }
+@media only screen and (max-width: 56.25em) {
+  .features__item p {
+    width: 38rem;
+  }
+}
+@media only screen and (max-width: tab-port) {
+  .features__item p {
+    width: 38rem;
+  }
+}
 .features__item a {
   text-decoration: none;
 }
@@ -1004,9 +1015,12 @@ body {
     -ms-grid-column: 1;
     -ms-grid-column-span: 12;
     grid-column: 1/13;
-    -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     margin: 7rem 0 6rem 0;
+    width: 38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media only screen and (max-width: phone) {
@@ -1014,9 +1028,12 @@ body {
     -ms-grid-column: 1;
     -ms-grid-column-span: 12;
     grid-column: 1/13;
-    -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     margin: 7rem 0 6rem 0;
+    width: 38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .highlight__heading {
@@ -1028,11 +1045,13 @@ body {
 @media only screen and (max-width: 37.5em) {
   .highlight__heading {
     font-size: 2.8rem;
+    width: 30.5rem;
   }
 }
 @media only screen and (max-width: phone) {
   .highlight__heading {
     font-size: 2.8rem;
+    width: 30.5rem;
   }
 }
 .highlight__text {
@@ -1244,6 +1263,16 @@ body {
   height: auto;
   width: 35rem;
   margin-bottom: 5rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .testimonials__group__item {
+    width: 33rem;
+  }
+}
+@media only screen and (max-width: tab-port) {
+  .testimonials__group__item {
+    width: 33rem;
+  }
 }
 .testimonials__group__paragraph {
   margin-bottom: 3rem;

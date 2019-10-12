@@ -13,7 +13,7 @@ const Features = () => (
 
 			<div className="features__group">
 				<div className="features__item">
-					<img src={ThumbPrint}></img>
+					<img src={ThumbPrint} alt=""></img>
 					<h3>Secure your app</h3>
 					<p>
 						Sint id amet voluptate excepteur anim consequat cillum est. Occaecat
@@ -24,7 +24,7 @@ const Features = () => (
 				</div>
 
 				<div className="features__item">
-					<img src={Cloud}></img>
+					<img src={Cloud} alt=""></img>
 					<h3>Secure your network</h3>
 					<p>
 						Sint id amet voluptate excepteur anim consequat cillum est. Occaecat
@@ -35,7 +35,7 @@ const Features = () => (
 				</div>
 
 				<div className="features__item">
-					<img src={People}></img>
+					<img src={People} alt=""></img>
 					<h3>Train your team</h3>
 					<p>
 						Sint id amet voluptate excepteur anim consequat cillum est. Occaecat

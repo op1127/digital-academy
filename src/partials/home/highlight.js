@@ -26,10 +26,10 @@ const Highlight = () => (
 			</div>
 
 			<div className="highlight__img-container">
-				<img className="highlight__img" src={Computer}></img>
+				<img className="highlight__img" src={Computer} alt=""></img>
 			</div>
 		</div>
-		<img className="highlight__bg" src={Background}></img>
+		<img className="highlight__bg" src={Background} alt=""></img>
 	</section>
 )
 

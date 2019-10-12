@@ -21,6 +21,8 @@ html {
     @include respond(big-desktop) {
         font-size: 75%; //1 rem = 12px, 12/16 = 75% 
     }
+
+    transition: all .5s;
 }
 
 
@@ -31,4 +33,5 @@ body {
     color: $color-gray;
     font-size: 1.6rem;
 }
+
 

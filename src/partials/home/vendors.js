@@ -9,7 +9,7 @@ const Vendors = () => (
 				Our students have gone on to work for
 			</h2>
 
-            <img className="vendors__img" src={VendorImg}></img>
+            <img className="vendors__img" src={VendorImg} alt="Satisfied customers"></img>
 		</div>
 	</section>
 )

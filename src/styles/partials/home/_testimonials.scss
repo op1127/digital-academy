@@ -73,6 +73,10 @@
             height: auto;
             width: 35rem;
             margin-bottom: 5rem;
+
+            @include respond(tab-port) {
+                width: 33rem;
+            }
         }
 
         &__paragraph {

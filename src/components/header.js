@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
 	<header className="header">
 		<div className="header__container">
 			<Link to="/" className="logo-container">
-				<img className="logo" src={Logo} />
+				<img className="logo" src={Logo} alt="Digital Academy logo"/>
 			</Link>
 
 			<h1 className="header__heading">{siteTitle}</h1>

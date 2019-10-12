@@ -25,7 +25,7 @@ const Testimonials = () => (
 					</p>
 
 					<div className="testimonials__group__author">
-						<img src={FaceOne}></img>
+						<img src={FaceOne} alt="Student"></img>
 
 						<div className="testimonials__group__text">
 							<p>CEO at <span>Whatever</span></p>
@@ -43,7 +43,7 @@ const Testimonials = () => (
 					</p>
 
 					<div className="testimonials__group__author">
-						<img src={FaceTwo}></img>
+						<img src={FaceTwo} alt="Student"></img>
 
 						<div className="testimonials__group__text">
 							<p>CEO at <span>Whatever</span></p>
@@ -61,7 +61,7 @@ const Testimonials = () => (
 					</p>
 
 					<div className="testimonials__group__author">
-						<img src={FaceThree}></img>
+						<img src={FaceThree} alt="Student"></img>
 
 						<div className="testimonials__group__text">
 							<p>CEO at <span>Whatever</span></p>

@@ -22,7 +22,7 @@ const Hero = () => (
 				</Link>
 			</div>
 
-			<img className="hero__screen" src={Screen}></img>
+			<img className="hero__screen" src={Screen} alt="Computer screen"></img>
 		</div>
 	</section>
 )

@@ -32,7 +32,7 @@ const Footer = ({ siteTitle }) => (
 						required
 					></input>
 					<button className="subscribe__form__input-btn">
-						<img className="mail-icon" src={Mail}></img>
+						<img className="mail-icon" src={Mail} alt=""></img>
 					</button>
 				</form>
 			</div>
@@ -42,7 +42,7 @@ const Footer = ({ siteTitle }) => (
 			<div className="footer__content__container">
 				<div className="footer__content__flex-left">
 					<div className="footer__content__group">
-						<img src={Logo}></img>
+						<img src={Logo} alt="Digital Academy logo"></img>
 						<p>
 							Eiusmod eiusmod deserunt cupidatat ad ut reprehenderit aute cillum
 							dolore eiusmod ad sunt quis cupidatat. Enim sit Lorem cillum duis
