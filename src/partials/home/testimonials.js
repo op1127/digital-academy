@@ -1,6 +1,4 @@
 import React from 'react'
-import Button from '../../components/button'
-import { Link } from 'gatsby'
 
 import FaceOne from '../../images/face-1.png';
 import FaceTwo from '../../images/face-2.png';

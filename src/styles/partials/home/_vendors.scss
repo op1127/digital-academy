@@ -1,0 +1,27 @@
+.vendors {
+
+    background-color: $color-primary;
+
+    &__container {
+        @include grid;
+    }
+
+    &__heading {
+        grid-column: 1 / 13;
+        justify-self: center;
+        margin-top: 7rem;
+        
+        font-size: 3.2rem;
+        font-family: $heading-font;
+        color: $white;
+    }
+
+    &__img {
+        grid-column: 1 / 13;
+        grid-row: 2 / 3;
+        justify-self: center;
+        margin: 2rem 0 7rem 0;
+
+        width: 80rem;
+    }
+}

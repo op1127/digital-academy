@@ -17,9 +17,6 @@ const Footer = ({ siteTitle }) => (
 				<Link to="/page-3" activeClassName="active-nav-item">
 					Academy
 				</Link>
-				<Link to="/404" activeClassName="active-nav-item">
-					Contact
-				</Link>
 			</nav>
 			<div className="footer__border"></div>
 

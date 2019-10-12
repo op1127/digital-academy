@@ -31,7 +31,7 @@ Media Query Manager
 1800px + : Big Desktop
 */
 
-// $ phone - tab-port - tab-land - big-desktop
+// $ phone - tab-port - tab-land - md-desktop - big-desktop
 // screen() for custom queries ex: @include respond(screen(1440))
 
 @mixin respond($breakpoint) {
@@ -59,6 +59,14 @@ Media Query Manager
         ; //1200px
     }
 
+    @if $breakpoint==md-desktop {
+        @media only screen and (min-width: 90em) {
+            @content
+        }
+
+        ; //1400px
+    }
+
     @if $breakpoint==big-desktop {
         @media only screen and (min-width: 112.5em) {
             @content
@@ -80,26 +88,23 @@ Media Query Manager
     @return ($breakpoint * 62.5em) / 1000;
 }
 
-
 // 1170 grid recreated in CSS Grid. No Bootstrap? No problem!!!
-@mixin grid ($rows: auto) {
+@mixin grid {
     width: 73.125%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: $rows;
+    grid-template-rows: auto;
     column-gap: 2.55%;
 
-    @include respond(tab-land) { 
-        width: 83.125%;
+    @include respond(screen(1440)) {
+        width: 95%;
     }
 
-    @include respond(tab-port) { 
-        width: 93.125%;
-    }
-
-    @include respond(phone) { 
+    
+    @include respond(phone) {
         width: 100%;
     }
+
 }
 

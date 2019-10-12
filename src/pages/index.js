@@ -7,6 +7,7 @@ import Hero from '../partials/home/hero'
 import Features from '../partials/home/features'
 import Highlight from '../partials/home/highlight'
 import Testimonials from '../partials/home/testimonials'
+import Vendors from '../partials/home/vendors'
 
 const IndexPage = () => (
 	<Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
 		<Features />
 		<Highlight />
 		<Testimonials />
+		<Vendors />
 	</Layout>
 )
 

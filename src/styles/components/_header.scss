@@ -11,12 +11,22 @@
     }
 
     &__nav {
-        grid-column:  9 / 13;
+        grid-column:  10 / 13;
         height: 10rem;
     
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        
+		@include respond(tab-land) {
+            grid-column:  9 / 12;
+        }
+        
+		@include respond(phone) {
+            grid-column:  8 / 11;
+		}
+
         
         & > * {
             font-family: $nav-font;
@@ -38,6 +48,10 @@
 
     display: flex;
     align-items: center;
+
+    @include respond(phone) {
+        grid-column: 2 / 6;
+    }
 
     .logo {
         width: 28rem;
