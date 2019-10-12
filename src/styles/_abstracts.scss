@@ -32,6 +32,7 @@ Media Query Manager
 */
 
 // $ phone - tab-port - tab-land - big-desktop
+// screen() for custom queries ex: @include respond(screen(1440))
 
 @mixin respond($breakpoint) {
     @if $breakpoint==phone {
@@ -65,8 +66,19 @@ Media Query Manager
 
         ; //1800px
     }
+
+    @else {
+        @media only screen and (max-width: $breakpoint) {
+            @content;
+        }
+    }
 }
 
+// Function to calculate ems based on screen width
+// Pass this into the respond mixin above for custom media queries
+@function screen($breakpoint) {
+    @return ($breakpoint * 62.5em) / 1000;
+}
 
 
 // 1170 grid recreated in CSS Grid. No Bootstrap? No problem!!!

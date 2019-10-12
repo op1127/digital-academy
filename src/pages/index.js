@@ -6,6 +6,7 @@ import SEO from '../components/seo'
 import Hero from '../partials/home/hero'
 import Features from '../partials/home/features'
 import Highlight from '../partials/home/highlight'
+import Testimonials from '../partials/home/testimonials'
 
 const IndexPage = () => (
 	<Layout>
@@ -13,6 +14,7 @@ const IndexPage = () => (
 		<Hero />
 		<Features />
 		<Highlight />
+		<Testimonials />
 	</Layout>
 )
 

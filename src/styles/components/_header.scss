@@ -27,12 +27,7 @@
             text-transform: uppercase;
             text-decoration: none;
         }
-    
-        @include respond(tab-port) {
-            grid-column: 6 / 13;
-        }
     }
-    
 }
 
 

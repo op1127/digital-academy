@@ -1,0 +1,87 @@
+.testimonials {
+
+    &__container {
+        @include grid;
+    }
+
+    &__heading {
+        grid-column: 1 / 13;
+        justify-self: center;
+        margin-top: 7rem;
+        
+        font-size: 3.2rem;
+        font-family: $heading-font;
+        color: $color-heading;
+
+        span {
+            color: $color-primary;
+            font-size: 4.5rem;
+        }
+    }
+
+    &__subheading {
+        grid-column: 1 / 13;
+        grid-row: 2 / 3;
+        justify-self: center;
+        margin-bottom: 2rem;
+
+        font-family: $nav-font;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.2rem;
+        letter-spacing: .2rem;
+        color: $color-medium-gray;
+
+    }
+
+    &__border {
+        grid-column: 1 / 13;
+        grid-row: 3 / 4;
+        border-bottom: solid .3rem $color-light-gray;
+        margin-bottom: 2rem;
+    }
+
+    &__group {
+        grid-column: 1 / 13;
+        grid-row: 4 / 5;
+        height: auto;
+
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        
+
+        &__item {
+            height: auto;
+            width: 35rem;
+            margin-bottom: 5rem;
+        }
+
+        &__paragraph {
+            margin-bottom: 3rem;
+        }
+
+        &__author {
+            width: 18rem;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                width: 5rem;
+            }
+            
+        }
+
+        &__text {
+            height: 3rem;
+            color: $color-heading;
+
+            p {
+                color: $color-medium-gray;
+                font-size: 1.4rem;
+                font-family: $nav-font;
+            }
+        }
+    }
+}

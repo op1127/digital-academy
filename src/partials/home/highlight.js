@@ -9,12 +9,12 @@ const Highlight = () => (
 	<section className="highlight">
 		<div className="highlight__container">
 			<div className="highlight__group">
-				<h2>
+				<h2 className="highlight__heading">
 					Ranked <span className="highlight__one">#1</span> Cybersecurity
 					Academy in the world
 				</h2>
 
-				<p>
+				<p className="highlight__text">
 					Esse ea mollit eiusmod irure aute adipisicing officia dolore commodo
 					commodo cupidatat est. Do ut minim ut anim eiusmod. Fugiat deserunt
 					deserunt culpa commodo officia ut commodo aliqua ullamco.
