@@ -17,6 +17,15 @@
 		text-align: center;
 
 		margin-top: 11.5rem;
+
+		@include respond(tab-port) {
+			font-size: 3.8rem;
+		}
+
+		@include respond(phone) {
+			font-size: 3rem;
+			margin-top: 8rem;
+		}
 	}
 
 	&__subheading {
@@ -31,16 +40,37 @@
 		font-size: 2rem;
 
 		margin: 2rem 0 4rem 0;
+
+		
+		@include respond(tab-port) {
+			width: 60rem;
+			font-size: 1.8rem;
+		}
+
+		@include respond(phone) {
+			width: 42rem;
+		}
 	}
 
 	&__btn-group {
 		grid-row: 3 / 4;
 		grid-column: 1 / 13;
 		justify-self: center;
+
+		@include respond(phone) {
+			width: 43rem;
+
+			display: flex;
+			justify-content: space-between;
+		}
 	}
 
 	&__btn-one {
 		margin-right: 3rem;
+
+		@include respond(phone) {
+			margin-right: 0;
+		}
     }
     
     &__screen {
@@ -48,7 +78,16 @@
         grid-row: 4 / 5;
         justify-self: center;
         margin-top: 5rem;
-        height: 28rem;
+		height: 28rem;
+
+		@include respond(tab-port) {
+			height: 20rem;
+		}
+		
+		
+		@include respond(phone) {
+			height: 15rem;
+		}
     }
     
 }

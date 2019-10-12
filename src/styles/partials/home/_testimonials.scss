@@ -16,6 +16,14 @@
         span {
             color: $color-primary;
             font-size: 4.5rem;
+
+            @include respond(phone) {
+                font-size: 4.1rem;
+            }
+        }
+
+        @include respond(phone) {
+            font-size: 2.8rem;
         }
     }
 
@@ -39,6 +47,10 @@
         grid-row: 3 / 4;
         border-bottom: solid .3rem $color-light-gray;
         margin-bottom: 2rem;
+
+        @include respond(phone) {
+            grid-column: 3 / 11;
+        }
     }
 
     &__group {
@@ -48,8 +60,13 @@
 
         display: flex;
         justify-content: space-around;
+        align-items: center;
         flex-wrap: wrap;
         margin-bottom: 5rem;
+
+        @include respond(tab-port) {
+            flex-direction: column;
+        }
         
 
         &__item {
