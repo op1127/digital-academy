@@ -1,11 +1,18 @@
 .hero {
-	background-color: $color-tertiary;
 	overflow: hidden;
     position: relative;
     
     @include respond(tab-port) {
         height: 65rem;
-    }
+	}
+	
+	&__bg-primary {
+		background-color: $color-primary;
+	}
+
+	&__bg-tertiary {
+		background-color: $color-tertiary;
+	}
 
 	&__container {
 		@include grid;

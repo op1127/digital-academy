@@ -12,7 +12,7 @@ const SecondPage = () => (
 		<Hero
 			heading="Unrivaled security for your business"
 			img={Laptop}
-			imgClass="hero__img"
+			heroClass="hero hero__bg-tertiary"
 		/>
 	</Layout>
 )

@@ -3,13 +3,18 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Teacher from '../images/teacher.svg'
+
+import Hero from '../components/hero'
 
 const ThirdPage = () => (
 	<Layout>
 		<SEO title="Academy" />
-		<h1>Hi from the third page</h1>
-		<p>Welcome to page 3</p>
-		<Link to="/">Go back to the homepage</Link>
+		<Hero
+			heading="Unlock your career potential"
+			img={Teacher}
+			heroClass="hero hero__bg-primary"
+		/>
 	</Layout>
 )
 

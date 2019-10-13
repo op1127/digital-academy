@@ -9,7 +9,7 @@ import People from '../../images/people.svg'
 const Features = () => (
 	<section className="features">
 		<div className="features__container">
-			<h2 className="features__heading">Unrivaled security for you business</h2>
+			<h2 className="features__heading">Unrivaled security for your business</h2>
 
 			<div className="features__group">
 				<div className="features__item">

@@ -650,7 +650,6 @@ body {
 }
 
 .hero {
-  background-color: #1B5179;
   overflow: hidden;
   position: relative;
 }
@@ -663,6 +662,12 @@ body {
   .hero {
     height: 65rem;
   }
+}
+.hero__bg-primary {
+  background-color: #3898EC;
+}
+.hero__bg-tertiary {
+  background-color: #1B5179;
 }
 .hero__container {
   width: 73.125%;
@@ -1552,11 +1557,19 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .vendors__heading {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 10;
+    grid-column: 2/12;
+    text-align: center;
     font-size: 2.8rem;
   }
 }
 @media only screen and (max-width: phone) {
   .vendors__heading {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 10;
+    grid-column: 2/12;
+    text-align: center;
     font-size: 2.8rem;
   }
 }
@@ -1574,12 +1587,12 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .vendors__img {
-    width: 50rem;
+    width: 45rem;
   }
 }
 @media only screen and (max-width: phone) {
   .vendors__img {
-    width: 50rem;
+    width: 45rem;
   }
 }
 
