@@ -7,12 +7,12 @@ import Cloud from '../../images/cloud.svg'
 import People from '../../images/people.svg'
 
 const Features = () => (
-	<section className="features">
-		<div className="features__container">
-			<h2 className="features__heading">Unrivaled security for your business</h2>
+	<section className="features-home">
+		<div className="features-home__container">
+			<h2 className="features-home__heading">Unrivaled security for your business</h2>
 
-			<div className="features__group">
-				<div className="features__item">
+			<div className="features-home__group">
+				<div className="features-home__item">
 					<img src={ThumbPrint} alt=""></img>
 					<h3>Secure your app</h3>
 					<p>
@@ -23,7 +23,7 @@ const Features = () => (
 					<Link to="/page-2">Learn more</Link>
 				</div>
 
-				<div className="features__item">
+				<div className="features-home__item">
 					<img src={Cloud} alt=""></img>
 					<h3>Secure your network</h3>
 					<p>
@@ -34,7 +34,7 @@ const Features = () => (
 					<Link to="/page-2">Learn more</Link>
 				</div>
 
-				<div className="features__item">
+				<div className="features-home__item">
 					<img src={People} alt=""></img>
 					<h3>Train your team</h3>
 					<p>
@@ -45,8 +45,8 @@ const Features = () => (
 					<Link to="/page-3">Learn more</Link>
 				</div>
 			</div>
-			<div className="features__btn">
-				<Link to="/page-2" className="features__btn">
+			<div className="features-home__btn">
+				<Link to="/page-2" className="features-home__btn">
 					<Button>Protect your business</Button>
 				</Link>
 			</div>

@@ -5,6 +5,7 @@ import SEO from '../components/seo'
 import Laptop from '../images/enterprise-screen.svg'
 
 import Hero from '../components/hero'
+import Features from '../partials/enterprise/features';
 
 const SecondPage = () => (
 	<Layout>
@@ -14,6 +15,7 @@ const SecondPage = () => (
 			img={Laptop}
 			heroClass="hero hero__bg-tertiary"
 		/>
+		<Features />
 	</Layout>
 )
 

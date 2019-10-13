@@ -1,0 +1,77 @@
+.features-enterprise {
+
+    &__container {
+        
+        @include grid;
+    }
+
+    &__heading {
+        grid-column: 1 / 13;
+        grid-row: 2 / 3;
+        justify-self: center;
+        
+        @include heading-style;
+    }
+
+    &__subheading {
+        grid-column: 1 / 13;
+        grid-row: 1 / 2;
+        justify-self: center;
+        margin-top: 7rem;
+
+        @include subheading-style;
+    }
+
+    &__group {
+        display: flex;
+        flex-wrap: wrap;
+
+        width: 88rem;
+        height: 38rem;
+
+        margin-bottom: 5rem;
+
+        @include respond(tab-port) {
+            height: 76rem;
+            width: 44rem;
+        }
+
+    }
+
+    &__item {
+        width: 40rem;
+        height: 15rem;
+        margin: 2rem;
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+            color: $color-heading;
+        }
+
+        img {
+            height: 4rem;
+            margin-top: .7rem;
+        }
+
+        &__text {
+            width: 33rem;
+        }
+    }
+
+}
+
+.ms-wrapper {
+    grid-column: 1 / 13;
+    grid-row: 3 / 4;
+    justify-self: center;
+    margin-top: 3rem;
+}
+
+.enterprise-phone {
+    margin-left: .7rem;
+}
+
+.enterprise-file {
+    margin-left: .5rem;
+}

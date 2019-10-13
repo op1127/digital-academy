@@ -1,21 +1,20 @@
 // Variables /////////////////////////////////////////////////////////////////////
 // Colors
 $white: #fff;
-$color-gray: #323C47;
+$color-gray: #323c47;
 $color-medium-gray: #989898;
 
-$color-light-gray: #FAFAFB;
+$color-light-gray: #fafafb;
 $color-heading: #546578;
 
-$color-primary: #3898EC;
-$color-secondary: #EC8C38;
-$color-tertiary: #1B5179;
+$color-primary: #3898ec;
+$color-secondary: #ec8c38;
+$color-tertiary: #1b5179;
 
 // Fonts
 $heading-font: Catamaran, sans-serif;
 $nav-font: Roboto, sans-serif;
 $main-font: Open-sans, sans-serif;
-
 
 // Font Imports /////////////////////////////////////////////////////////////////////////
 @import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
@@ -36,76 +35,83 @@ Media Query Manager
 // screen() for custom queries ex: @include respond(screen(1440))
 
 @mixin respond($breakpoint) {
-    @if $breakpoint==phone {
-        @media only screen and (max-width: 37.5em) {
-            @content
-        }
+	@if $breakpoint==phone {
+		@media only screen and (max-width: 37.5em) {
+			@content;
+		} //600px
+	}
 
-        ; //600px
-    }
+	@if $breakpoint==tab-port {
+		@media only screen and (max-width: 56.25em) {
+			@content;
+		} //900px
+	}
 
-    @if $breakpoint==tab-port {
-        @media only screen and (max-width: 56.25em) {
-            @content
-        }
+	@if $breakpoint==tab-land {
+		@media only screen and (max-width: 75em) {
+			@content;
+		} //1200px
+	}
 
-        ; //900px
-    }
+	@if $breakpoint==md-desktop {
+		@media only screen and (min-width: 90em) {
+			@content;
+		} //1400px
+	}
 
-    @if $breakpoint==tab-land {
-        @media only screen and (max-width: 75em) {
-            @content
-        }
-
-        ; //1200px
-    }
-
-    @if $breakpoint==md-desktop {
-        @media only screen and (min-width: 90em) {
-            @content
-        }
-
-        ; //1400px
-    }
-
-    @if $breakpoint==big-desktop {
-        @media only screen and (min-width: 112.5em) {
-            @content
-        }
-
-        ; //1800px
-    }
-
-    @else {
-        @media only screen and (max-width: $breakpoint) {
-            @content;
-        }
-    }
+	@if $breakpoint==big-desktop {
+		@media only screen and (min-width: 112.5em) {
+			@content;
+		} //1800px
+	} @else {
+		@media only screen and (max-width: $breakpoint) {
+			@content;
+		}
+	}
 }
 
 // Function to calculate ems based on screen width
 // Pass this into the respond mixin above for custom media queries
 @function screen($breakpoint) {
-    @return ($breakpoint * 62.5em) / 1000;
+	@return ($breakpoint * 62.5em) / 1000;
 }
 
 // 1170 grid recreated in CSS Grid. No Bootstrap? No problem!!!
 @mixin grid {
-    width: 73.125%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto;
-    column-gap: 2.55%;
+	width: 73.125%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: auto;
+	column-gap: 2.55%;
 
-    @include respond(screen(1440)) {
-        width: 95%;
-    }
+	@include respond(screen(1440)) {
+		width: 95%;
+	}
 
-    
-    @include respond(phone) {
-        width: 100%;
-    }
-
+	@include respond(phone) {
+		width: 100%;
+	}
 }
 
+// Style Mixins
+
+@mixin heading-style {
+
+	color: $color-heading;
+	font-family: $heading-font;
+	font-size: 3.2rem;
+
+	@include respond(phone) {
+		font-size: 2.8rem;
+	}
+}
+
+@mixin subheading-style {
+	font-family: $nav-font;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2rem;
+	letter-spacing: 0.2rem;
+	color: $color-medium-gray;
+}

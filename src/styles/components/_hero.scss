@@ -31,13 +31,10 @@
 		@include respond(tab-port) {
 			grid-column: 2 / 12;
 			margin-bottom: 0;
-			width: 60rem;
+			width: auto;
 			align-items: center;
 		}
 
-		@include respond(phone) {
-			width: auto;
-		}
 	}
 
 	&__heading {
@@ -63,6 +60,10 @@
 
 		@include respond(tab-port) {
 			font-size: 1.8rem;
+			width: 60rem;
+		}
+		@include respond(phone) {
+			width: 43rem;
 		}
 	}
 
@@ -90,7 +91,7 @@
 		}
 
 		@include respond(phone) {
-			width: 35rem;
+			width: 45rem;
 		}
 	}
 }
