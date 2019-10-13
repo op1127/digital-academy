@@ -76,7 +76,7 @@
 			align-items: center;
 
 			@include respond(tab-port) {
-				grid-column: 1 / 13;
+				grid-column: 2 / 12;
 				justify-self: center;
 				height: 20rem;
 				margin-top: 4rem;
@@ -93,6 +93,10 @@
 
 			p {
 				color: $color-medium-gray;
+			}
+
+			@include respond(phone) {
+				width: auto;
 			}
 		}
 
@@ -125,6 +129,10 @@
 
 			@include respond(tab-port) {
 				width: 35rem;
+			}
+
+			@include respond(phone) {
+				width: 25rem;
 			}
 
 			p {
