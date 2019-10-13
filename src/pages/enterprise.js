@@ -6,6 +6,8 @@ import Laptop from '../images/enterprise-screen.svg'
 
 import Hero from '../components/hero'
 import Features from '../partials/enterprise/features';
+import Service from '../partials/enterprise/service'
+import Testimonials from '../components/testimonials'
 
 const SecondPage = () => (
 	<Layout>
@@ -16,6 +18,8 @@ const SecondPage = () => (
 			heroClass="hero hero__bg-tertiary"
 		/>
 		<Features />
+		<Service />
+		<Testimonials />
 	</Layout>
 )
 

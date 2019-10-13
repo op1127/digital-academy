@@ -1,0 +1,40 @@
+.service {
+    background-image: url("../images/computer-bg.png");
+
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__container {
+        @include grid;
+    }
+
+    &__heading {
+        grid-column: 1 / 13;
+        justify-self: center;
+        margin: 7rem 0 1rem 0;
+
+        @include heading-style;
+        text-shadow: 1px 1px 2px #696969;
+        color: $white;
+    }
+
+    &__text {
+        grid-column: 1 / 13;
+        grid-row: 2 / 3;
+        justify-self: center;
+        width: 60rem;
+        color: $white;
+        margin-bottom: 8rem;
+        text-shadow: 1px 1px 2px #696969;
+
+        @include respond(phone) {
+            width: 42rem;
+        }
+    }
+}

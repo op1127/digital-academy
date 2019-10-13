@@ -1,8 +1,8 @@
 import React from 'react'
 
-import FaceOne from '../../images/face-1.png';
-import FaceTwo from '../../images/face-2.png';
-import FaceThree from '../../images/face-3.png';
+import FaceOne from '../images/face-1.png';
+import FaceTwo from '../images/face-2.png';
+import FaceThree from '../images/face-3.png';
 
 const Testimonials = () => (
 	<section className="testimonials">

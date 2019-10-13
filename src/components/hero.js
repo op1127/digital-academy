@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from './button'
-import { Link } from 'gatsby'
 
 const Hero = ({ heading, img, heroClass }) => (
 	<section className={heroClass}>
