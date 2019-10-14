@@ -10,6 +10,10 @@
     border-radius: .4rem;
 
     cursor: pointer;
+
+    @include respond(phone) {
+        width: 18rem;
+    }
 }
 
 .btn__primary {

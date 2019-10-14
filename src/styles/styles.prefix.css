@@ -50,12 +50,12 @@ html {
 }
 
 ::-moz-selection {
-  background: #0078e0;
+  background: #147AD2;
   color: #fff;
 }
 
 ::selection {
-  background: #0078e0;
+  background: #147AD2;
   color: #fff;
 }
 
@@ -79,6 +79,16 @@ body {
   cursor: pointer;
   background-color: #e47b1f;
 }
+@media only screen and (max-width: 37.5em) {
+  .btn__primary {
+    width: 18rem;
+  }
+}
+@media only screen and (max-width: phone) {
+  .btn__primary {
+    width: 18rem;
+  }
+}
 
 .btn__secondary {
   width: 20rem;
@@ -92,6 +102,16 @@ body {
   cursor: pointer;
   background-color: transparent;
   border: 0.2rem solid #fff;
+}
+@media only screen and (max-width: 37.5em) {
+  .btn__secondary {
+    width: 18rem;
+  }
+}
+@media only screen and (max-width: phone) {
+  .btn__secondary {
+    width: 18rem;
+  }
 }
 
 .footer {
@@ -384,11 +404,11 @@ body {
   padding: 1rem 0;
 }
 .footer__author a {
-  color: #0078e0;
+  color: #147AD2;
 }
 
 .active-nav-item {
-  color: #0078e0;
+  color: #147AD2;
 }
 
 .subscribe {
@@ -435,14 +455,14 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .subscribe__text {
-    margin-right: 3rem;
+    margin-right: 1.4rem;
     width: 22rem;
     font-size: 1.4rem;
   }
 }
 @media only screen and (max-width: phone) {
   .subscribe__text {
-    margin-right: 3rem;
+    margin-right: 1.4rem;
     width: 22rem;
     font-size: 1.4rem;
   }
@@ -663,7 +683,7 @@ body {
 }
 
 .active-nav-item {
-  color: #0078e0;
+  color: #147AD2;
 }
 
 .hero {
@@ -672,19 +692,19 @@ body {
 }
 @media only screen and (max-width: 56.25em) {
   .hero {
-    height: 65rem;
+    height: 60rem;
   }
 }
 @media only screen and (max-width: tab-port) {
   .hero {
-    height: 65rem;
+    height: 60rem;
   }
 }
 .hero__bg-primary {
-  background-color: #0078e0;
+  background-color: #147AD2;
 }
 .hero__bg-tertiary {
-  background-color: #00457a;
+  background-color: #0F599A;
 }
 .hero__container {
   width: 73.125%;
@@ -794,12 +814,12 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .hero__text {
-    width: 43rem;
+    width: 100%;
   }
 }
 @media only screen and (max-width: phone) {
   .hero__text {
-    width: 43rem;
+    width: 100%;
   }
 }
 .hero__img-container {
@@ -915,7 +935,7 @@ body {
   }
 }
 .testimonials__heading span {
-  color: #0078e0;
+  color: #147AD2;
   font-size: 4.5rem;
 }
 @media only screen and (max-width: 37.5em) {
@@ -1030,7 +1050,7 @@ body {
 }
 
 .hero-home {
-  background-color: #0078e0;
+  background-color: #147AD2;
 }
 .hero-home__container {
   width: 73.125%;
@@ -1156,14 +1176,14 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .hero-home__btn-group {
-    width: 43rem;
+    width: 39rem;
     display: flex;
     justify-content: space-between;
   }
 }
 @media only screen and (max-width: phone) {
   .hero-home__btn-group {
-    width: 43rem;
+    width: 39rem;
     display: flex;
     justify-content: space-between;
   }
@@ -1393,7 +1413,7 @@ body {
 }
 .highlight__one {
   font-size: 4rem;
-  color: #0078e0;
+  color: #147AD2;
 }
 .highlight__group {
   -ms-grid-column: 2;
@@ -1541,7 +1561,7 @@ body {
 }
 
 .vendors {
-  background-color: #0078e0;
+  background-color: #147AD2;
 }
 .vendors__container {
   width: 73.125%;
@@ -1889,7 +1909,7 @@ body {
   }
 }
 .academy-features__heading span {
-  color: #0078e0;
+  color: #147AD2;
   font-size: 4rem;
 }
 .academy-features__wrapper {
@@ -2021,12 +2041,12 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .feature-table__table table {
-    padding: 2rem 4rem 4rem 4rem;
+    padding: 1rem 2rem 3rem 2rem;
   }
 }
 @media only screen and (max-width: phone) {
   .feature-table__table table {
-    padding: 2rem 4rem 4rem 4rem;
+    padding: 1rem 2rem 3rem 2rem;
   }
 }
 .feature-table__table th,

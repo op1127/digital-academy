@@ -3,7 +3,7 @@
     position: relative;
     
     @include respond(tab-port) {
-        height: 65rem;
+        height: 60rem;
 	}
 	
 	&__bg-primary {
@@ -64,7 +64,7 @@
 			width: 60rem;
 		}
 		@include respond(phone) {
-			width: 43rem;
+			width: 100%;
 		}
 	}
 
