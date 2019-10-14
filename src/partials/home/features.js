@@ -20,7 +20,7 @@ const Features = () => (
 						comm velit anim enim ea labore. Quis aute labore incididunt ex
 						est dolor dolor.
 					</p>
-					<Link to="/page-2">Learn more</Link>
+					<Link to="/enterprise">Learn more</Link>
 				</div>
 
 				<div className="features-home__item">
@@ -31,7 +31,7 @@ const Features = () => (
 						comm velit anim enim ea labore. Quis aute labore incididunt ex
 						est dolor dolor.
 					</p>
-					<Link to="/page-2">Learn more</Link>
+					<Link to="/enterprise">Learn more</Link>
 				</div>
 
 				<div className="features-home__item">
@@ -42,7 +42,7 @@ const Features = () => (
 						comm velit anim enim ea labore. Quis aute labore incididunt ex
 						est dolor dolor.
 					</p>
-					<Link to="/page-3">Learn more</Link>
+					<Link to="/academy">Learn more</Link>
 				</div>
 			</div>
 			<div className="features-home__btn">

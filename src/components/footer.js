@@ -32,7 +32,7 @@ const Footer = ({ siteTitle }) => (
 						aria-label="Email form"
 						required
 					></input>
-					<button className="subscribe__form__input-btn">
+					<button className="subscribe__form__input-btn" aria-label="Email submit">
 						<img className="mail-icon" src={Mail} alt=""></img>
 					</button>
 				</form>
