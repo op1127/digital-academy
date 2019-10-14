@@ -16,6 +16,7 @@ const ThirdPage = () => (
 			heading="Unlock your career potential"
 			img={Teacher}
 			heroClass="hero hero__bg-primary"
+			linkPath="#academy-features"
 		/>
 		<Features />
 		<Table />

@@ -1,4 +1,5 @@
 .footer {
+	border-top: .3rem solid $color-light-gray;
 	&__nav__container {
 		@include grid;
 		height: auto

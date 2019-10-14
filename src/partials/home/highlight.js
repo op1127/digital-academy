@@ -20,7 +20,7 @@ const Highlight = () => (
 					deserunt culpa commodo officia ut commodo aliqua ullamco.
 				</p>
 
-				<Link to="/page-3">
+				<Link to="/academy">
 					<Button>Advance your career</Button>
 				</Link>
 			</div>

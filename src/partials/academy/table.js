@@ -6,7 +6,7 @@ const Table = () => (
 		<div className="feature-table__container">
 			<h2 className="feature-table__heading">Choose your learning plan</h2>
 			<div className="feature-table__table">
-				<table cellspacing="0">
+				<table cellSpacing="0">
 					<tbody>
 						<tr>
 							<th scope="col"></th>

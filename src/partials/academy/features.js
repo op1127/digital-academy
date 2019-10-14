@@ -5,7 +5,7 @@ import Hat from '../../images/graduation.svg'
 import Graph from '../../images/graph.svg'
 
 const Features = () => (
-	<section className="academy-features">
+	<section className="academy-features" id="academy-features">
 		<div className="academy-features__container">
 			<h2 className="academy-features__heading">
 				Ranked <span>#1</span> Cybersecurity Academy

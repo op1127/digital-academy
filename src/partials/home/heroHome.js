@@ -13,11 +13,11 @@ const Hero = () => (
 				fugiat elit non consequat nostrud aute occaecat incididunt dolor
 			</h2>
 			<div className="hero-home__btn-group">
-				<Link to="/page-2" className="hero-home__btn-one">
+				<Link to="/enterprise" className="hero-home__btn-one">
 					<Button>Protect your business</Button>
 				</Link>
 
-				<Link to="/page-3" className="hero-home__btn-two">
+				<Link to="/academy" className="hero-home__btn-two">
 					<Button type="secondary">Advance your career</Button>
 				</Link>
 			</div>

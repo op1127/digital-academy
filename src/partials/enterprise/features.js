@@ -6,18 +6,18 @@ import Cloud from '../../images/cloud.svg'
 import File from '../../images/enterprise-file.svg'
 
 const Features = () => (
-	<section className="features-enterprise">
-		<div className="features-enterprise__container">
-			<p className="features-enterprise__subheading">what makes us special</p>
-			<h2 className="features-enterprise__heading">
+	<section className="enterprise-features" id="enterprise-features">
+		<div className="enterprise-features__container">
+			<p className="enterprise-features__subheading">what makes us special</p>
+			<h2 className="enterprise-features__heading">
 				Security with peace of mind
 			</h2>
-			<div className="features-enterprise__wrapper">
-				<div className="features-enterprise__group">
-					<div className="features-enterprise__item">
+			<div className="enterprise-features__wrapper">
+				<div className="enterprise-features__group">
+					<div className="enterprise-features__item">
 						<img src={Phone} className="enterprise-phone" alt=""></img>
 
-						<div className="features-enterprise__item__text">
+						<div className="enterprise-features__item__text">
 							<h3>Device Encryption</h3>
 							<p>
 								Pariatur et sit id quis. Fugiat nostrud reprehenderit eiusmod
@@ -27,10 +27,10 @@ const Features = () => (
 						</div>
 					</div>
 
-					<div className="features-enterprise__item">
+					<div className="enterprise-features__item">
 						<img src={Bug} alt=""></img>
 
-						<div className="features-enterprise__item__text">
+						<div className="enterprise-features__item__text">
 							<h3>Advanced Debugging</h3>
 							<p>
 								Pariatur et sit id quis. Fugiat nostrud reprehenderit eiusmod
@@ -40,10 +40,10 @@ const Features = () => (
 						</div>
 					</div>
 
-					<div className="features-enterprise__item">
+					<div className="enterprise-features__item">
 						<img src={Cloud} alt=""></img>
 
-						<div className="features-enterprise__item__text">
+						<div className="enterprise-features__item__text">
 							<h3>Protected Data</h3>
 							<p>
 								Pariatur et sit id quis. Fugiat nostrud reprehenderit eiusmod
@@ -53,10 +53,10 @@ const Features = () => (
 						</div>
 					</div>
 
-					<div className="features-enterprise__item">
+					<div className="enterprise-features__item">
 						<img src={File} className="enterprise-file" alt=""></img>
 
-						<div className="features-enterprise__item__text">
+						<div className="enterprise-features__item__text">
 							<h3>Secure File Upload</h3>
 							<p>
 								Pariatur et sit id quis. Fugiat nostrud reprehenderit eiusmod

@@ -16,6 +16,7 @@ const SecondPage = () => (
 			heading="Unrivaled security for your business"
 			img={Laptop}
 			heroClass="hero hero__bg-tertiary"
+			linkPath="#enterprise-features"
 		/>
 		<Features />
 		<Service />

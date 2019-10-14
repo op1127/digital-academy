@@ -1,7 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Button from './button'
 
-const Hero = ({ heading, img, heroClass }) => (
+const Hero = ({ heading, img, heroClass, linkPath }) => (
 	<section className={heroClass}>
 		<div className="hero__container">
 			<div className="hero__group">
@@ -12,7 +13,9 @@ const Hero = ({ heading, img, heroClass }) => (
 					fugiat duis non deserunt minim ullamco nulla duis minim sint Lorem
 					magna nisi magna nisi.
 				</p>
-				<Button>Learn more</Button>
+				<a href={linkPath}>
+					<Button>Learn more</Button>
+				</a>
 			</div>
 
 			<div className="hero__img-container">
@@ -21,5 +24,12 @@ const Hero = ({ heading, img, heroClass }) => (
 		</div>
 	</section>
 )
+
+Hero.propTypes = {
+	heading: PropTypes.string,
+	img: PropTypes.string,
+	heroClass: PropTypes.string,
+	linkPath: PropTypes.string,
+}
 
 export default Hero
