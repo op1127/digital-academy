@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
 		title: `Digital Academy`,
-		description: `Some Stuff`,
+		description: `A proof of concept website built with Gatsby`,
 		author: `Omar Plasencia`,
 	},
 	plugins: [
@@ -18,13 +18,13 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: `gatsby-starter-default`,
-				short_name: `starter`,
+				name: `Digital Academy`,
+				short_name: `Portfolio`,
 				start_url: `/`,
-				background_color: `#663399`,
-				theme_color: `#663399`,
+				background_color: `#3898ec`,
+				theme_color: `#3898ec`,
 				display: `minimal-ui`,
-				icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+				icon: `src/images/da-favicon.png`, // This path is relative to the root of the site.
 			},
 		},
 		// this (optional) plugin enables Progressive Web App + Offline functionality

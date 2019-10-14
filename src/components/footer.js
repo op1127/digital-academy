@@ -72,7 +72,7 @@ const Footer = ({ siteTitle }) => (
 			</div>
 		</div>
 		<div className="footer__author">
-			© {new Date().getFullYear()} || Designed and Developed by Omar Plasencia
+			© {new Date().getFullYear()} || Designed and Developed by <a href="https://omarap.com">Omar Plasencia</a>
 		</div>
 	</footer>
 )
