@@ -12,10 +12,10 @@ const Features = () => (
 			<h2 className="features-enterprise__heading">
 				Security with peace of mind
 			</h2>
-			<div className="ms-wrapper">
+			<div className="features-enterprise__wrapper">
 				<div className="features-enterprise__group">
 					<div className="features-enterprise__item">
-						<img src={Phone} className="enterprise-phone"></img>
+						<img src={Phone} className="enterprise-phone" alt=""></img>
 
 						<div className="features-enterprise__item__text">
 							<h3>Device Encryption</h3>
@@ -28,7 +28,7 @@ const Features = () => (
 					</div>
 
 					<div className="features-enterprise__item">
-						<img src={Bug}></img>
+						<img src={Bug} alt=""></img>
 
 						<div className="features-enterprise__item__text">
 							<h3>Advanced Debugging</h3>
@@ -41,7 +41,7 @@ const Features = () => (
 					</div>
 
 					<div className="features-enterprise__item">
-						<img src={Cloud}></img>
+						<img src={Cloud} alt=""></img>
 
 						<div className="features-enterprise__item__text">
 							<h3>Protected Data</h3>
@@ -54,7 +54,7 @@ const Features = () => (
 					</div>
 
 					<div className="features-enterprise__item">
-						<img src={File} className="enterprise-file"></img>
+						<img src={File} className="enterprise-file" alt=""></img>
 
 						<div className="features-enterprise__item__text">
 							<h3>Secure File Upload</h3>

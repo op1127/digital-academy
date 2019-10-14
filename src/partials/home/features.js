@@ -17,7 +17,7 @@ const Features = () => (
 					<h3>Secure your app</h3>
 					<p>
 						Sint id amet voluptate excepteur anim consequat cillum est. Occaecat
-						commodo velit anim enim ea labore. Quis aute labore incididunt ex
+						comm velit anim enim ea labore. Quis aute labore incididunt ex
 						est dolor dolor.
 					</p>
 					<Link to="/page-2">Learn more</Link>
@@ -28,7 +28,7 @@ const Features = () => (
 					<h3>Secure your network</h3>
 					<p>
 						Sint id amet voluptate excepteur anim consequat cillum est. Occaecat
-						commodo velit anim enim ea labore. Quis aute labore incididunt ex
+						comm velit anim enim ea labore. Quis aute labore incididunt ex
 						est dolor dolor.
 					</p>
 					<Link to="/page-2">Learn more</Link>
@@ -39,7 +39,7 @@ const Features = () => (
 					<h3>Train your team</h3>
 					<p>
 						Sint id amet voluptate excepteur anim consequat cillum est. Occaecat
-						commodo velit anim enim ea labore. Quis aute labore incididunt ex
+						comm velit anim enim ea labore. Quis aute labore incididunt ex
 						est dolor dolor.
 					</p>
 					<Link to="/page-3">Learn more</Link>

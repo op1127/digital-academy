@@ -16,7 +16,7 @@ const Hero = ({ heading, img, heroClass }) => (
 			</div>
 
 			<div className="hero__img-container">
-				<img className="hero__img" src={img}></img>
+				<img className="hero__img" src={img} alt="Hero graphic"></img>
 			</div>
 		</div>
 	</section>

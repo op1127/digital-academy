@@ -22,6 +22,13 @@
         @include subheading-style;
     }
 
+    &__wrapper {
+        grid-column: 1 / 13;
+        grid-row: 3 / 4;
+        justify-self: center;
+        margin-top: 3rem;
+    }
+
     &__group {
         display: flex;
         flex-wrap: wrap;
@@ -61,12 +68,6 @@
 
 }
 
-.ms-wrapper {
-    grid-column: 1 / 13;
-    grid-row: 3 / 4;
-    justify-self: center;
-    margin-top: 3rem;
-}
 
 .enterprise-phone {
     margin-left: .7rem;
