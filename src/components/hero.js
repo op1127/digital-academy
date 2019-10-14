@@ -14,7 +14,7 @@ const Hero = ({ heading, img, heroClass, linkPath }) => (
 					magna nisi magna nisi.
 				</p>
 				<a href={linkPath}>
-					<Button>Learn more</Button>
+					<Button name="Learn more">Learn more</Button>
 				</a>
 			</div>
 

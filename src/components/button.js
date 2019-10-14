@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-const Button = ({ type, children }) => {
+const Button = ({ type, children, name }) => {
 	let style
 
 	switch (type) {
@@ -13,7 +13,7 @@ const Button = ({ type, children }) => {
 	}
 
 	return (
-		<button className={style} type={type}>
+		<button className={style} type={type} aria-label={name}>
 			{children}
 		</button>
 	)

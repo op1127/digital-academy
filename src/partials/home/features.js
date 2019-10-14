@@ -47,7 +47,7 @@ const Features = () => (
 			</div>
 			<div className="features-home__btn">
 				<Link to="/enterprise" className="features-home__btn">
-					<Button>Protect your business</Button>
+					<Button name="Link to enterprise page">Protect your business</Button>
 				</Link>
 			</div>
 		</div>

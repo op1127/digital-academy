@@ -21,7 +21,7 @@ const Highlight = () => (
 				</p>
 
 				<Link to="/academy">
-					<Button>Advance your career</Button>
+					<Button name="Like to academy page">Advance your career</Button>
 				</Link>
 			</div>
 

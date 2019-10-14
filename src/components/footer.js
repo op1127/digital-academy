@@ -29,6 +29,7 @@ const Footer = ({ siteTitle }) => (
 						className="subscribe__form__input"
 						type="email"
 						placeholder="  E-mail"
+						aria-label="Email form"
 						required
 					></input>
 					<button className="subscribe__form__input-btn">

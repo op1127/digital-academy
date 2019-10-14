@@ -50,12 +50,12 @@ html {
 }
 
 ::-moz-selection {
-  background: #3898ec;
+  background: #0078e0;
   color: #fff;
 }
 
 ::selection {
-  background: #3898ec;
+  background: #0078e0;
   color: #fff;
 }
 
@@ -77,7 +77,7 @@ body {
   border: none;
   border-radius: 0.4rem;
   cursor: pointer;
-  background-color: #ec8c38;
+  background-color: #e47b1f;
 }
 
 .btn__secondary {
@@ -384,11 +384,11 @@ body {
   padding: 1rem 0;
 }
 .footer__author a {
-  color: #3898ec;
+  color: #0078e0;
 }
 
 .active-nav-item {
-  color: #3898ec;
+  color: #0078e0;
 }
 
 .subscribe {
@@ -663,7 +663,7 @@ body {
 }
 
 .active-nav-item {
-  color: #3898ec;
+  color: #0078e0;
 }
 
 .hero {
@@ -681,10 +681,10 @@ body {
   }
 }
 .hero__bg-primary {
-  background-color: #3898ec;
+  background-color: #0078e0;
 }
 .hero__bg-tertiary {
-  background-color: #1b5179;
+  background-color: #00457a;
 }
 .hero__container {
   width: 73.125%;
@@ -915,7 +915,7 @@ body {
   }
 }
 .testimonials__heading span {
-  color: #3898ec;
+  color: #0078e0;
   font-size: 4.5rem;
 }
 @media only screen and (max-width: 37.5em) {
@@ -1030,7 +1030,7 @@ body {
 }
 
 .hero-home {
-  background-color: #3898ec;
+  background-color: #0078e0;
 }
 .hero-home__container {
   width: 73.125%;
@@ -1393,7 +1393,7 @@ body {
 }
 .highlight__one {
   font-size: 4rem;
-  color: #3898ec;
+  color: #0078e0;
 }
 .highlight__group {
   -ms-grid-column: 2;
@@ -1541,7 +1541,7 @@ body {
 }
 
 .vendors {
-  background-color: #3898ec;
+  background-color: #0078e0;
 }
 .vendors__container {
   width: 73.125%;
@@ -1889,7 +1889,7 @@ body {
   }
 }
 .academy-features__heading span {
-  color: #3898ec;
+  color: #0078e0;
   font-size: 4rem;
 }
 .academy-features__wrapper {
