@@ -78,20 +78,20 @@ Media Query Manager
 
 // 1170 grid recreated in CSS Grid. No Bootstrap? No problem!!!
 @mixin grid {
-	width: 73.125%;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: auto;
-	column-gap: 2.55%;
+    width: 73%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    column-gap: 2.5%;
 
-	@include respond(screen(1440)) {
-		width: 95%;
-	}
+    @include respond(screen(1440)) {
+        width: 95%;
+    }
 
-	@include respond(phone) {
-		width: 100%;
-	}
+    @include respond(phone) {
+        width: 100%;
+    }
 }
 
 // Style Mixins

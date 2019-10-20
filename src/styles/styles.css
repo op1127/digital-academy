@@ -113,12 +113,12 @@ body {
   border-top: 0.3rem solid #fafafb;
 }
 .footer__nav__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
   height: auto;
 }
 @media only screen and (max-width: 90em) {
@@ -217,12 +217,12 @@ body {
   }
 }
 .footer__content__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
   height: 100%;
 }
 @media only screen and (max-width: 90em) {
@@ -445,12 +445,12 @@ body {
   }
 }
 .header__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
   height: 100%;
 }
 @media only screen and (max-width: 90em) {
@@ -593,12 +593,12 @@ body {
   background-color: #0F599A;
 }
 .hero__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
   height: auto;
 }
 @media only screen and (max-width: 90em) {
@@ -746,12 +746,12 @@ body {
 }
 
 .testimonials__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
 }
 @media only screen and (max-width: 90em) {
   .testimonials__container {
@@ -891,12 +891,12 @@ body {
   background-color: #147AD2;
 }
 .hero-home__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
 }
 @media only screen and (max-width: 90em) {
   .hero-home__container {
@@ -1044,12 +1044,12 @@ body {
 }
 
 .features-home__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
   height: auto;
 }
 @media only screen and (max-width: 90em) {
@@ -1174,12 +1174,12 @@ body {
   }
 }
 .highlight__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
 }
 @media only screen and (max-width: 90em) {
   .highlight__container {
@@ -1323,12 +1323,12 @@ body {
   background-color: #147AD2;
 }
 .vendors__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
 }
 @media only screen and (max-width: 90em) {
   .vendors__container {
@@ -1386,12 +1386,12 @@ body {
 }
 
 .enterprise-features__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
 }
 @media only screen and (max-width: 90em) {
   .enterprise-features__container {
@@ -1502,12 +1502,12 @@ body {
   background-size: cover;
 }
 .service__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
 }
 @media only screen and (max-width: 90em) {
   .service__container {
@@ -1567,12 +1567,12 @@ body {
 }
 
 .academy-features__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
 }
 @media only screen and (max-width: 90em) {
   .academy-features__container {
@@ -1665,12 +1665,12 @@ body {
   background-color: #fafafb;
 }
 .feature-table__container {
-  width: 73.125%;
+  width: 73%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  column-gap: 2.55%;
+  column-gap: 2.5%;
 }
 @media only screen and (max-width: 90em) {
   .feature-table__container {
