@@ -21,7 +21,9 @@ const Highlight = () => (
 				</p>
 
 				<Link to="/academy">
-					<Button name="Like to academy page">Advance your career</Button>
+					<div className="highlight__btn">
+						<Button name="Like to academy page">Advance your career</Button>
+					</div>
 				</Link>
 			</div>
 

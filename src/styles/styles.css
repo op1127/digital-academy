@@ -1222,9 +1222,6 @@ body {
     justify-self: center;
     margin: 7rem 0 6rem 0;
     width: 38rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }
 @media only screen and (max-width: phone) {
@@ -1233,9 +1230,6 @@ body {
     justify-self: center;
     margin: 7rem 0 6rem 0;
     width: 38rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }
 .highlight__heading {
@@ -1248,16 +1242,29 @@ body {
   .highlight__heading {
     font-size: 2.8rem;
     width: 30.5rem;
+    margin: 0 auto;
   }
 }
 @media only screen and (max-width: phone) {
   .highlight__heading {
     font-size: 2.8rem;
     width: 30.5rem;
+    margin: 0 auto;
   }
 }
 .highlight__text {
   margin: 1.3rem 0 3rem 0;
+  width: 100%;
+}
+@media only screen and (max-width: 37.5em) {
+  .highlight__btn {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: phone) {
+  .highlight__btn {
+    text-align: center;
+  }
 }
 .highlight__img-container {
   grid-column: 7/13;
